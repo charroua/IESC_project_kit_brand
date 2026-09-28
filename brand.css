@@ -1,18 +1,25 @@
 :root {
+  /* Typography */
+  --font-display: "Bespoke Serif Medium", Georgia, serif;
+  --font-primary: "Aptos", Arial, sans-serif;
+
+  /* Core colors */
   --navy: #0B2E59;
   --teal: #006A83;
   --gold: #DDB534;
+
+  /* Supporting colors */
   --soft-gold: #F4E8B7;
   --pale-blue: #EAF3F8;
   --slate-blue: #7FA3B8;
+
+  /* Neutrals */
   --charcoal: #333333;
   --mid-gray: #6E7781;
   --light-gray: #E7EBEE;
   --white: #FFFFFF;
 
-  --font-heading: "Bespoke Serif Medium", Georgia, serif;
-  --font-body: Aptos, Arial, sans-serif;
-
+  /* Data visualization */
   --chart-actual: #0B2E59;
   --chart-forecast: #DDB534;
   --chart-secondary: #006A83;
@@ -20,25 +27,45 @@
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-primary);
   color: var(--charcoal);
   background: var(--white);
 }
 
-h1, h2 {
-  font-family: var(--font-heading);
+h1,
+h2,
+h3,
+.insight-headline {
+  font-family: var(--font-display);
+}
+
+h1,
+h2,
+h3 {
   color: var(--navy);
 }
 
 .insight-headline {
-  font-family: var(--font-heading);
   color: var(--teal);
 }
 
 .analysis-heading {
-  font-family: var(--font-body);
+  font-family: var(--font-primary);
   font-weight: 600;
   color: var(--gold);
+}
+
+.chart-title,
+.chart-label,
+.kpi,
+.source,
+table {
+  font-family: var(--font-primary);
+}
+
+.chart-title {
+  color: var(--teal);
+  font-weight: 600;
 }
 
 .callout {

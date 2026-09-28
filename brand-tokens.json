@@ -1,16 +1,31 @@
 {
   "brand": {
-    "name": "Vietnam TCL Market Study",
-    "version": "1.0"
+    "name": "IESC Vietnam TCL Project",
+    "version": "2.0"
   },
   "typography": {
-    "heading": {
+    "display": {
       "family": "Bespoke Serif Medium",
-      "fallback": "Georgia, serif"
+      "fallback": "Georgia, serif",
+      "usage": [
+        "Cover titles",
+        "Chapter titles",
+        "Section titles",
+        "Major insight headlines"
+      ]
     },
-    "body": {
+    "primary": {
       "family": "Aptos",
-      "fallback": "Arial, sans-serif"
+      "fallback": "Arial, sans-serif",
+      "usage": [
+        "Body text",
+        "Analytical subheadings",
+        "Charts",
+        "Tables",
+        "KPI labels",
+        "Captions",
+        "Sources and footnotes"
+      ]
     }
   },
   "colors": {
