@@ -1,0 +1,52 @@
+:root {
+  --navy: #0B2E59;
+  --teal: #006A83;
+  --gold: #DDB534;
+  --soft-gold: #F4E8B7;
+  --pale-blue: #EAF3F8;
+  --slate-blue: #7FA3B8;
+  --charcoal: #333333;
+  --mid-gray: #6E7781;
+  --light-gray: #E7EBEE;
+  --white: #FFFFFF;
+
+  --font-heading: "Bespoke Serif Medium", Georgia, serif;
+  --font-body: Aptos, Arial, sans-serif;
+
+  --chart-actual: #0B2E59;
+  --chart-forecast: #DDB534;
+  --chart-secondary: #006A83;
+  --chart-gridline: #E7EBEE;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--charcoal);
+  background: var(--white);
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+  color: var(--navy);
+}
+
+.insight-headline {
+  font-family: var(--font-heading);
+  color: var(--teal);
+}
+
+.analysis-heading {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.callout {
+  background: var(--pale-blue);
+  border-left: 4px solid var(--teal);
+}
+
+.source {
+  color: var(--mid-gray);
+  font-size: 0.8rem;
+}

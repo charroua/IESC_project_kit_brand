@@ -1,0 +1,41 @@
+{
+  "brand": {
+    "name": "Vietnam TCL Market Study",
+    "version": "1.0"
+  },
+  "typography": {
+    "heading": {
+      "family": "Bespoke Serif Medium",
+      "fallback": "Georgia, serif"
+    },
+    "body": {
+      "family": "Aptos",
+      "fallback": "Arial, sans-serif"
+    }
+  },
+  "colors": {
+    "primary": {
+      "navy": "#0B2E59",
+      "teal": "#006A83",
+      "gold": "#DDB534"
+    },
+    "secondary": {
+      "softGold": "#F4E8B7",
+      "paleBlue": "#EAF3F8",
+      "slateBlue": "#7FA3B8"
+    },
+    "neutral": {
+      "charcoal": "#333333",
+      "midGray": "#6E7781",
+      "lightGray": "#E7EBEE",
+      "white": "#FFFFFF"
+    },
+    "charts": {
+      "actual": "#0B2E59",
+      "forecast": "#DDB534",
+      "secondary": "#006A83",
+      "gridline": "#E7EBEE",
+      "label": "#0B2E59"
+    }
+  }
+}
